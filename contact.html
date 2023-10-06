@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Nous contacter</h1>
+
+      <nav>
+        <a href="index.html">Acceuil</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <img src="resto.jpg" alt="photo de resturant le fiassco" width="1200" height="800" />
+    </header>
+    <section>
+      <h2>Ou nous trouver</h2>
+
+      <p>
+        128 rue de demenstration <br />
+        34000 Montepellier <br />
+        France
+      </p>
+
+      <iframe
+        src="https://www.google.com/maps/d/viewer?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&hl=en_US&ll=33.781548558830686%2C10.946525266745425&z=14"
+        frameborder="1"
+      >
+      </iframe>
+      <h2>nous envoyer un email</h2>
+      <form action="contact.html" method="post">
+        <div>
+          <label for="email">email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="exemple@email.fr"
+          />
+        </div>
+        <div>
+          <label for="firstName"> votre prenom </label>
+          <input type="text" name="firstName" id="firstName" required />
+        </div>
+        <div>
+          <label for="message"> ecriver votre message </label>
+          <textarea required id="message" name="message"></textarea>
+        </div>
+        <div>
+            <input type="checkbox">J'accepte tout les condtions
+        </div>
+        <button type="submit">Envoyer votre email</button>
+      </form>
+    </section>
+  </body>
+</html>

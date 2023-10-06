@@ -1,0 +1,26 @@
+tr:nth-child(2n) {
+    background-color: gray;
+  }
+
+h2 {
+  color: green;
+}
+input[type="text"],
+input[type="email"] {
+  width: 200px;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: blueviolet;
+}
+h1 {
+  text-align: center;
+  color: brown;
+}
+h1:hover {
+  font-size: 3em;
+  color: yellowgreen;
+}
+
